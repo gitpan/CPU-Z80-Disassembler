@@ -1,0 +1,31 @@
+--- #YAML:1.0
+name:               CPU-Z80-Disassembler
+version:            0.01
+abstract:           Disassemble the flow of a Z80 program
+author:
+    - Paulo Custodio <pscust@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Asm::Z80::Table:    0.02
+    Bit::Vector:        7.1
+    Carp:               0
+    Class::XSAccessor:  1.08
+    File::Basename:     0
+    File::Slurp:        9999.12
+    Getopt::Std:        0
+    Test::More:         0.96
+    Test::Output:       0.16
+    Tie::File:          0.96
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
