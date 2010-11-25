@@ -1,4 +1,4 @@
-# $Id: Format.pm,v 1.1 2010/11/21 22:08:13 Paulo Exp $
+# $Id: Format.pm,v 1.2 2010/11/25 03:04:39 Paulo Exp $
 
 package CPU::Z80::Disassembler::Format;
 
@@ -15,7 +15,7 @@ CPU::Z80::Disassembler::Format - Format output of disassembler
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 #------------------------------------------------------------------------------
 

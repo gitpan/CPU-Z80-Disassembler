@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CPU-Z80-Disassembler
-version:            0.01
+version:            0.02
 abstract:           Disassemble the flow of a Z80 program
 author:
     - Paulo Custodio <pscust@cpan.org>
