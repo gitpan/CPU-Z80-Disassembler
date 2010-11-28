@@ -1,4 +1,4 @@
-# $Id: Label.pm,v 1.2 2010/11/25 03:04:39 Paulo Exp $
+# $Id: Label.pm,v 1.3 2010/11/28 02:58:14 Paulo Exp $
 
 package CPU::Z80::Disassembler::Label;
 
@@ -19,7 +19,7 @@ use Carp;
 
 use CPU::Z80::Disassembler::Format;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #------------------------------------------------------------------------------
 

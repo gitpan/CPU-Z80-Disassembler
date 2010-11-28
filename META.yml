@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CPU-Z80-Disassembler
-version:            0.02
+version:            0.03
 abstract:           Disassemble the flow of a Z80 program
 author:
     - Paulo Custodio <pscust@cpan.org>
@@ -11,16 +11,17 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Asm::Z80::Table:    0.02
-    Bit::Vector:        7.1
-    Carp:               0
-    Class::XSAccessor:  1.08
-    File::Basename:     0
-    File::Slurp:        9999.12
-    Getopt::Std:        0
-    Test::More:         0.96
-    Test::Output:       0.16
-    Tie::File:          0.96
+    Asm::Z80::Table:      0.02
+    Bit::Vector:          7.1
+    Carp:                 0
+    Class::XSAccessor:    1.08
+    CPU::Z80::Assembler:  2.13
+    File::Basename:       0
+    File::Slurp:          9999.12
+    Getopt::Std:          0
+    Test::More:           0.96
+    Test::Output:         0.16
+    Tie::File:            0.96
 no_index:
     directory:
         - t

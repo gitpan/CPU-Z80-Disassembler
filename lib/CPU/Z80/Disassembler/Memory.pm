@@ -1,4 +1,4 @@
-# $Id: Memory.pm,v 1.2 2010/11/25 03:04:39 Paulo Exp $
+# $Id: Memory.pm,v 1.3 2010/11/28 02:58:24 Paulo Exp $
 
 package CPU::Z80::Disassembler::Memory;
 
@@ -21,7 +21,7 @@ use Bit::Vector;
 
 use CPU::Z80::Disassembler::Format;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #------------------------------------------------------------------------------
 
