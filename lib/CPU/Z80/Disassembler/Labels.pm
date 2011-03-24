@@ -1,4 +1,4 @@
-# $Id: Labels.pm,v 1.3 2010/11/28 02:58:20 Paulo Exp $
+# $Id: Labels.pm,v 1.4 2011/03/24 16:46:11 Paulo Exp $
 
 package CPU::Z80::Disassembler::Labels;
 
@@ -21,7 +21,7 @@ use Bit::Vector;
 use CPU::Z80::Disassembler::Label;
 use CPU::Z80::Disassembler::Format;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 #------------------------------------------------------------------------------
 

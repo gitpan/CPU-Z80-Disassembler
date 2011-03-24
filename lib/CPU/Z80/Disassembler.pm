@@ -1,4 +1,4 @@
-# $Id: Disassembler.pm,v 1.3 2010/11/28 02:57:57 Paulo Exp $
+# $Id: Disassembler.pm,v 1.4 2011/03/24 16:46:01 Paulo Exp $
 
 package CPU::Z80::Disassembler;
 
@@ -22,7 +22,7 @@ use CPU::Z80::Disassembler::Instruction;
 use CPU::Z80::Disassembler::Format;
 use CPU::Z80::Disassembler::Labels;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 #------------------------------------------------------------------------------
 

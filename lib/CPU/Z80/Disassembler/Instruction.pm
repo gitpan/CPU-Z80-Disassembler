@@ -1,4 +1,4 @@
-# $Id: Instruction.pm,v 1.3 2010/11/28 02:58:08 Paulo Exp $
+# $Id: Instruction.pm,v 1.4 2011/03/24 16:46:11 Paulo Exp $
 
 package CPU::Z80::Disassembler::Instruction;
 
@@ -19,7 +19,7 @@ use Asm::Z80::Table;
 use CPU::Z80::Disassembler::Memory;
 use CPU::Z80::Disassembler::Format;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 #------------------------------------------------------------------------------
 
